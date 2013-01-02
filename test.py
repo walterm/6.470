@@ -4,3 +4,5 @@ def fun(x):
 print fun(2)
 
 #yay it works!
+
+print fun(3)
