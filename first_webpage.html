@@ -1,8 +1,64 @@
 <html>
+<head><title>First webpage.</title></head>
+
 <body>
-<h1>My first heading</h1>
-<h6>My sixth heading.</h6>
-<a href="http://6.470.scripts.mit.edu">6.470 Homepage</a>
-<p>My first paragraph</p>
+<!--Testing ids and classes-->
+<h3 id="hd_1">heading 3</h3>
+<h3 id="hd_2" class"small_heading">heading 3_1</h3>
+
+<!--Style attribute-->
+<h1 style="color:blue;text-align:center">This is a header.</h1>
+<p style="color:green">This is a paragraph.</p>
+<!--CSS makes this redundant.-->
+
+<!--Drawing lines-->
+<hr> <!--done-->
+<!--Paragraphs-->
+<p>HTML ignores
+line breaks.</p>
+<p>It also    ignores spaces     .</p>
+<!--Formatters: b, strong, big, em, i, small, sub, sup-->
+
+<!--Imaging-->
+<!--If that image weren't in the same directory, you have to provide a file path.
+When you don't specify a path, it'll immediately look in the same directory.-->
+<a href="http://www.facebook.com"> <img src="smaller_portrait.jpg" /> </a>
+
+<!--Links: <a href="URL HERE">Hyperlink</a>-->
+
+<!--Forms-->
+<form name="input">
+	<!--This first option needs an action attribute. That's in PHP.-->
+First name: <input type="text" name="firstname" /> <br/>
+Last name: <input type="text" name="lastname" /> <br />
+Password: <input type="password" name="pwd" /> <br />
+<input type="radio" name="sex" value="male"/>Male<br />
+<input type="radio" name="sex" value="female"/>Female<br />
+<input type="submit" value="Submit" />
+</form>
+<!--Names are more for server-side operations.-->
+
+<!--Lists and tables.-->
+<h3>Colors, difference between ul and ol</h3>
+<ol type="I">
+	<li>Red</li>
+	<li>Yellow</li>
+	<li>Blue</li>
+</ol>
+
+<table border="1">
+	<tr>
+		<th>Continent</th>
+		<th>Plant</th>
+		<th>Fire</th>
+		<th>Water</th>
+	</tr>
+	<tr>
+		<td>Kanto</td>
+		<td>Bulbasaur</td>
+		<td>Charmander</td>
+		<td>Squirtle</td>
+	</tr>
+</table>
 </body>
 </html>
