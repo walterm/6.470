@@ -1,24 +1,4 @@
-h1 
+h1
 {
-	color:green;
-}
-
-p
-{
-	color:blue;
-}
-
-p.blue_p
-{
-	color:orange;
-}
-
-#heading1
-{
-	color:red;
-}
-
-#special p.blue_p
-{
-	color:black;
+	color: green;
 }

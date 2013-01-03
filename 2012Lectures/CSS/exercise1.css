@@ -1,0 +1,23 @@
+/* 6.470 CSS Exercise 1 */
+
+/*Needed:width, margin, padding, border, color, 
+text-decoration, text-align, color. */
+div
+{
+	border:1px solid gray;
+	width: 400px;
+	margin: 20px auto 0px;
+	padding: 10px 20px;
+}
+
+h3
+{
+	color:gray;
+	text-decoration: underline;
+	text-align: center;
+}
+
+p
+{
+	color:blue;
+}
