@@ -5,8 +5,7 @@
 	<body>
 		This is HTML. <br />
 
-		<?php
-				echo "This is PHP! <br />";
-		?>
+		<?php "<b>This is PHP!</b>";
+		 ?>
 	</body>
 </html>
