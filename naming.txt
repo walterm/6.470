@@ -7,3 +7,8 @@ feedback
 tune
 music
 sharp
+songbird
+sonata
+robin
+echo
+sonar
