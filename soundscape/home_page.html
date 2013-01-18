@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Soundscape - Home</title>
+		<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+	  	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+	</head>
+	<body>
+		<style type="text/css">
+			#username {display: none;}
+		</style>
+		<div id="buttons">
+			<button id="login">Login</button> <button id="register">Register</button>
+		</div>
+		<div id="signin">
+			<form method="post" action="">
+				<p id="email">
+					<label>Email: </label>
+					<input type="text" name="username" />
+				</p>
+				<p id="password">
+					<label>Password: </label>
+					<input type="password" name="pwd" />
+				</p>
+				<p id="username">
+					<label>Username: </label>
+					<input type="text" name="username" />
+				<p>
+					<input type="submit" id="submit" value="Submit" name="submit">
+				</p>
+			</form>
+			<script type="text/javascript">
+				/*
+				* jQuery code to hide and show login fields
+				* @author walterm
+				*/
+				$(document).ready(function(){
+					//Hiding username on login
+					$("#login").click(function(){
+						$("#username").hide("drop", {direction:"up"}, "slow");
+					});
+
+					//Showing username on register
+					$("#register").click(function(){
+						$("#username").show("fold", 1000);
+					});
+				});
+			</script>
+		</div>
+	</body>
+</html>
