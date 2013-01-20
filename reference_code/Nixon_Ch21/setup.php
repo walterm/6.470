@@ -5,7 +5,7 @@
 <?php // Example 21-3: setup.php
 include_once 'functions.php';
 
-createTable('members',
+/*createTable('members',
             'user VARCHAR(16),
             pass VARCHAR(16),
             INDEX(user(6))');
@@ -29,7 +29,7 @@ createTable('friends',
 createTable('profiles',
             'user VARCHAR(16),
             text VARCHAR(4096),
-            INDEX(user(6))');
+            INDEX(user(6))'); */
 ?>
 
 <br />...done.

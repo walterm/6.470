@@ -56,12 +56,12 @@ if (isset($_POST['user']))
         $error = "Not all fields were entered<br /><br />";
     else
     {
-        if (mysql_num_rows(queryMysql("SELECT * FROM members
+        if (mysql_num_rows(queryMysql("SELECT * FROM users
 		      WHERE user='$user'")))
             $error = "That username already exists<br /><br />";
         else
 		  {
-            queryMysql("INSERT INTO members VALUES('$user', '$pass')");
+            queryMysql("INSERT INTO users VALUES('$user', '$pass')");
             die("<h4>Account created</h4>Please Log in.<br /><br />");
         }
     }

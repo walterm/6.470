@@ -5,7 +5,7 @@ if (isset($_POST['user']))
 {
     $user = sanitizeString($_POST['user']);
 
-    if (mysql_num_rows(queryMysql("SELECT * FROM members
+    if (mysql_num_rows(queryMysql("SELECT * FROM users
         WHERE user='$user'")))
         echo  "<span class='taken'>&nbsp;&#x2718; " .
               "Sorry, this username is taken</span>";

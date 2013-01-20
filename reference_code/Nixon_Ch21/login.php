@@ -14,7 +14,7 @@ if (isset($_POST['user']))
     }
     else
     {
-        $query = "SELECT user,pass FROM members
+        $query = "SELECT user,pass FROM users
             WHERE user='$user' AND pass='$pass'";
 
         if (mysql_num_rows(queryMysql($query)) == 0)
@@ -25,7 +25,7 @@ if (isset($_POST['user']))
         else
         {
             $_SESSION['user'] = $user;
-            $_SESSION['pass'] = $pass;
+            $_SESSION['password'] = $pass;
             die("You are now logged in. Please <a href='members.php?view=$user'>" .
                 "click here</a> to continue.<br /><br />");
         }

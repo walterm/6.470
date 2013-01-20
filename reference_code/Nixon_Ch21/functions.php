@@ -1,6 +1,6 @@
 <?php // Example 21-1: functions.php
-$dbhost  = 'localhost';    // Unlikely to require changing
-$dbname  = 'sql.mit.edu';       // Modify these...
+$dbhost  = 'sql.mit.edu';    // Unlikely to require changing
+$dbname  = 'mchlljy+soundscape_users';       // Modify these...
 $dbuser  = 'mchlljy';   // ...variables according
 $dbpass  = 'bat49xar';   // ...to your installation
 $appname = "Soundscape"; // ...and preference
