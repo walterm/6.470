@@ -1,0 +1,79 @@
+PHP reference for Walter
+
+<?php
+// PHP code goes here
+?>
+
+<?php
+//This is a comment
+
+/*
+This is
+a comment
+block
+*/
+?>
+
+<?php
+//Variable declaration
+$txt="Hello World!";
+$x=16;
+?>
+
+//Function declaration
+function myTest($para1,$para2,...)
+{
+// function code
+}
+
+//Concatonate with dots
+<?php
+$txt1="Hello World!";
+$txt2="What a nice day!";
+echo $txt1 . " " . $txt2;
+?>
+
+//If statements
+<?php
+$d=date("D");
+if ($d=="Fri") echo "Have a nice weekend!";
+?>
+
+
+//If-else
+<?php
+$d=date("D");
+if ($d=="Fri")
+  {
+  echo "Have a nice weekend!";
+  }
+else
+  {
+  echo "Have a nice day!";
+  }
+?>
+
+if (condition)
+  {
+  code to be executed if condition is true;
+  }
+elseif (condition)
+  {
+  code to be executed if condition is true;
+  }
+else
+  {
+  code to be executed if condition is false;
+  }
+
+ switch (n)
+{
+case label1:
+  code to be executed if n=label1;
+  break;
+case label2:
+  code to be executed if n=label2;
+  break;
+default:
+  code to be executed if n is different from both label1 and label2;
+}
