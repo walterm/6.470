@@ -61,7 +61,7 @@ if (isset($_POST['user']))
             $error = "That username already exists<br /><br />";
         else
 		  {
-            queryMysql("INSERT INTO users VALUES('$user', '$pass')");
+            queryMysql("INSERT INTO users(user, pass) VALUES('$user', '$pass')");
             die("<h4>Account created</h4>Please Log in.<br /><br />");
         }
     }
@@ -70,10 +70,10 @@ if (isset($_POST['user']))
 echo <<<_END
 <form method='post' action='signup.php'>$error
 <span class='fieldname'>Username</span>
-<input type='text' maxlength='16' name='user' value='$user'
+<input type='text' maxlength='32' name='user' value='$user'
     onBlur='checkUser(this)'/><span id='info'></span><br />
 <span class='fieldname'>Password</span>
-<input type='text' maxlength='16' name='pass'
+<input type='text' maxlength='32' name='pass'
     value='$pass' /><br />
 _END;
 ?>
