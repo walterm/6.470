@@ -1,5 +1,5 @@
 <?php // Example 21-9: members.php
-include_once 'header.php';
+include_once 'footer.php';
 
 if (!$loggedin) die();
 

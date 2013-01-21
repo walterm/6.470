@@ -1,5 +1,5 @@
 <?php // Example 21-12: logout.php
-include_once 'header.php';
+include_once 'footer.php';
 
 if (isset($_SESSION['user']))
 {

@@ -1,5 +1,5 @@
 <?php // Example 21-7: login.php
-include_once 'header.php';
+include_once 'footer.php';
 echo "<div class='main'><h3>Please enter your details to log in</h3>";
 $error = $user = $pass = "";
 
@@ -33,7 +33,7 @@ if (isset($_POST['user']))
 }
 
 echo <<<_END
-<form method='post' action='login.php'>$error
+<form method='post' action='profile.php'>$error
 <span class='fieldname'>Username</span><input type='text'
     maxlength='16' name='user' value='$user' /><br />
 <span class='fieldname'>Password</span><input type='password'

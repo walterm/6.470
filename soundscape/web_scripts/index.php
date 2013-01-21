@@ -1,5 +1,5 @@
 <?php // Example 21-4: index.php
-include_once 'header.php';
+include_once 'footer.php';
 
 echo "<head> <script type='text/javascript' src='http://code.jquery.com/jquery-1.9.0.js'></script>
 	  	<script type='text/javascript' src='http://code.jquery.com/ui/1.10.0/jquery-ui.js'></script>";
@@ -14,7 +14,7 @@ else //Copying the entire webpage
 		<div id='logo'><img src='soundscape_logo.png'/></div>
 		<div id='signin'>
 		
-			<form method='post' action='>
+			<form method='post' action='profile.php'>
 				<p id='email'>
 					<input class='design' type='text' name='username' value='Email' />
 				</p>
@@ -38,4 +38,4 @@ else //Copying the entire webpage
 
 ?>
 
-</span><br /><br /></body></html>
+<br /><br /></body></html>
