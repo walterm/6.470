@@ -1,8 +1,10 @@
 <?php // Example 21-4: index.php
 include_once 'header.php';
 
+echo "<head> <script type='text/javascript' src='http://code.jquery.com/jquery-1.9.0.js'></script>
+	  	<script type='text/javascript' src='http://code.jquery.com/ui/1.10.0/jquery-ui.js'></script>";
+echo " <script src='login.js' type='text/javascript'></script></head>";
 echo "<link rel='stylesheet' href='login.css' type='text/css'/>";
-echo "<script src='login.js' type='text/javascript'></script>";
 
 if ($loggedin) echo " $user, you are logged in.";
 else //Copying the entire webpage

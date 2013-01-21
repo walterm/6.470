@@ -1,50 +1,38 @@
+<!DOCTYPE html>
 <html>
 	<head>
+		<title>SoundScape</title>
 		<title>Soundscape - Home</title>
-		<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
-	  	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.js"></script>
+	  	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+	  	<script type="text/javascript" src="login.js"></script>
+	  	<link rel="stylesheet" type="text/css" href="login.css"  />
+	  	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+
 	</head>
 	<body>
-		<style type="text/css">
-			#username {display: none;}
-		</style>
-		<div id="buttons">
-			<button id="login">Login</button> <button id="register">Register</button>
-		</div>
+		<div id="logo"><img src="soundscape_logo.png"/></div>
 		<div id="signin">
-			<form method="post" action="connect.php">
+		
+			<form method="post" action="">
 				<p id="email">
-					<label>Email: </label>
-					<input type="text" name="username" />
+					<input class="design" type="text" name="username" value="Email" />
 				</p>
 				<p id="password">
-					<label>Password: </label>
-					<input type="password" name="pwd" />
+					<input class="design" type="password" name="pwd" value="Password" />
+					<input type="submit" id="logbutton" value="Login" name="login" >
 				</p>
 				<p id="username">
-					<label>Username: </label>
-					<input type="text" name="username" />
-				<p>
-					<input type="submit" id="submit" value="Submit" name="submit">
+					<input class="design" type="text" name="username" value="Username" />
+					<input type="submit" id="submit" value="Submit" name="submit" >
 				</p>
 			</form>
-			<script type="text/javascript">
-				/*
-				* jQuery code to hide and show login fields
-				* @author walterm
-				*/
-				$(document).ready(function(){
-					//Hiding username on login
-					$("#login").click(function(){
-						$("#username").hide("drop", {direction:"up"}, "slow");
-					});
-
-					//Showing username on register
-					$("#register").click(function(){
-						$("#username").show("fold", 1000);
-					});
-				});
-			</script>
+			
+		</div>
+		
+		<div class="footer">
+			<button id="login">Login</button> <button id="register">Register</button>
+			<div id="tagline"><p>Where musicians come to jam</p></div>
 		</div>
 	</body>
 </html>
