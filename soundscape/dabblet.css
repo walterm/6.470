@@ -1,0 +1,107 @@
+/**
+ * username's photos
+ */
+
+img {
+align: middle;
+height: 250px;
+width: 250px;
+}
+
+body {
+font-family: Tw Cen MT Condensed Extra Bold, Times New Roman;
+color: rgb(125, 15, 43)
+}
+
+a{
+text-decoration: none;
+color: rgb(125, 15, 43);
+}
+
+table {
+border-collapse: separate;
+border-spacing: 40px;
+}
+
+td {
+background-color: rgb(88, 78, 75);
+padding-left: 10px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 5px;
+}
+
+#dumbo{
+height: 40px;
+}
+
+#title {
+font-size: 72px;
+background: transparent;
+padding-right: 500px;
+padding-top: 0px;
+padding-bottom: 0px;
+margin: 0px;
+}
+#link {
+padding-left: 500px;
+background: transparent;
+font-size: 24px;
+padding-top: 0px;
+padding-bottom: 0px;
+margin: 0px;
+}
+#head {
+position: fixed;
+background: transparent;
+border-spacing: 5px;
+}
+
+#search{
+background: white;
+font-size: 72px;
+color: rgb(212, 201, 201);
+padding-top:  0px;
+padding-bottom: 0px;
+padding-left: 20px;
+padding-right: 30px;
+margin: 0px;
+}
+#control {
+background: white;
+padding: 0px;
+margin: 0px;
+background: transparent;
+}
+#dummy{
+padding-left: 400px;
+background: transparent;
+margin: 0px;
+}
+#navbar{
+background: rgb(212, 201, 201);
+width: 1890px;
+color: rgb(88, 78,75);
+font-size: 24px;
+border-spacing: 20px;
+position: fixed;
+}
+#container{
+position: fixed;
+}
+#buttonright {
+position: relative;
+bottom: 500px;
+left: 1770px;
+padding: 0px;
+margin: 0px;
+border-spacing: 0px;
+}
+#buttonright img {
+height: 150px;
+width: 100px;
+background: rgb(212, 201, 201);
+}
+#buttonright td {
+background: rgb(212, 201, 201);
+}
