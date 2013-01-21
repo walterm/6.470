@@ -5,6 +5,7 @@ include 'functions.php';
 
 $userstr = ' (Guest)';
 
+//If the user's been defined
 if (isset($_SESSION['user']))
 {
     $user     = $_SESSION['user'];
@@ -17,8 +18,10 @@ echo "<title>$appname$userstr</title><link rel='stylesheet' " .
      "href='styles.css' type='text/css' />" .
      "</head><body><div class='appname'>$appname$userstr</div>";
 
+//If they're logged in
 if ($loggedin)
 {
+    //Allow them menu options
     echo "<br ><ul class='menu'>" .
          "<li><a href='members.php?view=$user'>Home</a></li>" .
          "<li><a href='members.php'>Members</a></li>" .
@@ -29,6 +32,7 @@ if ($loggedin)
 }
 else
 {
+    //Otherwise deny them access to those features
     echo ("<br /><ul class='menu'>" .
          "<li><a href='index.php'>Home</a></li>" .
          "<li><a href='signup.php'>Sign up</a></li>" .
