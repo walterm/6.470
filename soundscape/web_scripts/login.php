@@ -1,5 +1,4 @@
-<?php // Example 21-7: login.php
-include_once 'footer.php';
+<?php
 
 $error = $user = $pass = "";
 

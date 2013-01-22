@@ -1,9 +1,9 @@
-<?php // Example 21-1: functions.php
-$dbhost  = 'sql.mit.edu';    // Unlikely to require changing
-$dbname  = 'mchlljy+soundscape_users';       // Modify these...
-$dbuser  = 'mchlljy';   // ...variables according
-$dbpass  = 'bat49xar';   // ...to your installation
-$appname = "Soundscape"; // ...and preference
+<?php
+$dbhost  = 'sql.mit.edu';    
+$dbname  = 'mchlljy+soundscape_users';
+$dbuser  = 'mchlljy';  
+$dbpass  = 'bat49xar';  
+$appname = "Soundscape";
 
 //Establishing database connection
 mysql_connect($dbhost, $dbuser, $dbpass) or die(mysql_error());
