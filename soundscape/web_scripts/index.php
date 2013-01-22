@@ -16,12 +16,14 @@ else //Copying the entire webpage
 		
 			<form method='post' action='login.php'>
 				<p id='email'>
-					<input class='design' type='text' name='username' value='Email' />
+					<input class='design' type='text' name='username' value='Username' />
 				</p>
 				<p id='password'>
 					<input class='design' type='password' name='pwd' value='Password' />
 					<input type='submit' id='logbutton' value='Login' name='login' >
 				</p>
+			</form>	
+			<form method='post' action='signup.php'>
 				<p id='username'>
 					<input class='design' type='text' name='username' value='Username' />
 					<input type='submit' id='submit' value='Submit' name='submit' >
