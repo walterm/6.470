@@ -23,7 +23,7 @@ else //Copying the entire webpage
 					<input type='submit' id='logbutton' value='Login' name='login' >
 				</p>
 			</form>	
-			<form method='post' action='signup.php'>
+			<form method='post' action='profile.php'>
 				<p id='username'>
 					<input class='design' type='text' name='username' value='Username' />
 					<input type='submit' id='submit' value='Submit' name='submit' >
