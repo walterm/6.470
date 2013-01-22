@@ -1,6 +1,6 @@
 <?php // Example 21-7: login.php
 include_once 'footer.php';
-echo "<div class='main'><h3>Please enter your details to log in</h3>";
+
 $error = $user = $pass = "";
 
 if (isset($_POST['user']))

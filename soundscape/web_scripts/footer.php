@@ -1,6 +1,6 @@
 <?php
 session_start();
-echo "<!DOCTYPE html>\n<html><head><script src='login.js'></script>";
+echo "<!DOCTYPE html>\n<html><head>";
 echo "<link rel='stylesheet' src='footer.css'";
 include 'functions.php';
 

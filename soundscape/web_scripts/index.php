@@ -14,7 +14,7 @@ else //Copying the entire webpage
 		<div id='logo'><img src='soundscape_logo.png'/></div>
 		<div id='signin'>
 		
-			<form method='post' action='profile.php'>
+			<form method='post' action='login.php'>
 				<p id='email'>
 					<input class='design' type='text' name='username' value='Email' />
 				</p>
